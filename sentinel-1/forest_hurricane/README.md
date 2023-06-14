@@ -3,7 +3,7 @@ permalink: /sentinel-1/forest_hurricane/
 nav_exclude: true
 ---
 
-# ForestHurricane Script
+# Forest Hurricane Script
 
 {% assign paths = page.dir | remove_first: "/" | split: "/" | join: "-"%}
 <button class="btn btn-primary" id="toggle-script" onclick="toggleScript()">Show Script</button>
